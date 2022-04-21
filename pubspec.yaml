@@ -1,0 +1,68 @@
+name: resumedemo
+description: An demo ecommerce flutter project for resume
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # dynamic ui
+  flutter_screenutil: any
+
+  # state management
+  get: 4.6.1
+
+  # local storage
+  get_storage: any
+
+  # network image
+  cached_network_image: ^3.2.0
+
+  # Side Menu
+  flutter_zoom_drawer: ^3.0.1
+
+  # font
+  google_fonts: ^2.3.1
+
+  jumping_dot: ^0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  assets:
+    - assets/fonts/
+    - assets/gif/
+    - assets/image/
+#  fonts:
+#    - family: KongshoMJ
+#      fonts:
+#        - asset: assets/fonts/KongshoMJ.ttf
+#        - asset: assets/fonts/KongshoMJ-Bold.ttf
+#    - family: MavenProBold
+#      fonts:
+#        - asset: assets/fonts/MavenProRegular.ttf
+#          weight: 400
+#        - asset: assets/fonts/MavenProBold.ttf
+#          weight: 700
+#    - family: Mistral
+#      fonts:
+#        - asset: assets/fonts/Mistral.ttf
+#    - family: FontAwesome
+#      fonts:
+#        - asset: assets/fonts/fa_brands.ttf
+#        - asset: assets/fonts/fa_brands_5.otf
+#        - asset: assets/fonts/fa_regular.ttf
+#        - asset: assets/fonts/fa_regular_5.otf
+#        - asset: assets/fonts/fa_solid.ttf
+#        - asset: assets/fonts/fa_solids_5.otf
+  uses-material-design: true
